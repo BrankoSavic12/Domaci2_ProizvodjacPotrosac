@@ -23,7 +23,7 @@ public class Domaci2_ProizvodjacPotrosac {
         }
 
         for (int i = 1; i <= 3; i++) {
-            new Izvestac(skladiste, "src/main/java/rs/ac/fink/proizvodjacpotrosac/raspored.txt").start();
+            new Izvestac(skladiste, "raspored.txt").start();
         }
         new java.util.Scanner(System.in).nextLine(); 
         System.exit(0); 
